@@ -5,8 +5,8 @@ This is the modern, responsive React (Vite) frontend dashboard built to consume 
 ## 📸 Dashboard Preview
 *(Take a screenshot of your dashboard in Light Mode and Dark Mode and drop them in a `screenshots` folder, then link them here!)*
 
-![Dark Mode Preview](screenshots/dark-mode.png)
-![Light Mode Preview](screenshots/light-mode.png)
+![Dark Mode Preview](screenshots/darkmode.png)
+![Light Mode Preview](screenshots/lightmode.png)
 
 ## 🚀 The Architecture
 This frontend perfectly complements the FastAPI backend, demonstrating a complete **Full-Stack Microservices Architecture**:
