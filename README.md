@@ -3,7 +3,6 @@
 This is the modern, responsive React (Vite) frontend dashboard built to consume the [IT Asset DB API](https://github.com/stokie2605/it-asset-db-api). 
 
 ## 📸 Dashboard Preview
-*(Take a screenshot of your dashboard in Light Mode and Dark Mode and drop them in a `screenshots` folder, then link them here!)*
 
 ![Dark Mode Preview](screenshots/darkmode.png)
 ![Light Mode Preview](screenshots/lightmode.png)
