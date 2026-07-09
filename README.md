@@ -5,3 +5,34 @@
 * **The Problem:** Back-office hardware tracking APIs require friendly client visualization and stateful filtering loops to prevent administrators from running manual JSON requests during device onboarding.
 * **The Solution:** A responsive React dashboard built on Vite, implementing localized theme state persistence (Light/Dark variables), direct REST fetches, and event handlers to sync local UI state changes with backend databases.
 * **The Tech Stack:** `React` `Vite` `JavaScript` `CSS Variables`
+
+---
+
+## 🎥 Visual Preview
+
+| Dark Mode Preview | Light Mode Preview |
+| --- | --- |
+| ![Dark Mode Preview](screenshots/darkmode.png) | ![Light Mode Preview](screenshots/lightmode.png) |
+
+---
+
+## ⚙️ Features & Architecture
+*   **Live REST Sync:** Consumes FastAPI endpoints to pull, display, and filter corporate hardware assets.
+*   **Persistent Theming:** Light and dark visual modes controlled through native CSS variable tokens.
+*   **Mutational UI State:** An interactive modal workflow executing `POST` request payload validation to instantly refresh the primary asset log table.
+*   **Micro-animations:** Interface built with custom glassmorphism components and UI transition loops.
+
+---
+
+## 🛠️ Local Development Setup
+
+1. Ensure the containerized FastAPI backend is running.
+2. Clone the repository and install packages:
+   ```bash
+   npm install
+   ```
+3. Boot the local server:
+   ```bash
+   npm run dev
+   ```
+4. Access the site at `http://localhost:5173`.
